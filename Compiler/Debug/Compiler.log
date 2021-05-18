@@ -1,0 +1,18 @@
+﻿  Source.cpp
+C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Source\Source.cpp(35,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Source\Source.cpp(240,13): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Source\Source.cpp(521,21): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Source\Source.cpp(741,19): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Source\Source.cpp(755,18): warning C4244:  'argument': conversion from 'double' to 'const _Elem', possible loss of data
+C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Source\Source.cpp(755,18): warning C4244:         with
+C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Source\Source.cpp(755,18): warning C4244:         [
+C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Source\Source.cpp(755,18): warning C4244:             _Elem=char
+C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Source\Source.cpp(755,18): warning C4244:         ]
+C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Source\Source.cpp(883,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Source\Source.cpp(1108,22): warning C4551:  function call missing argument list
+C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Source\Source.cpp(1598,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Source\Source.cpp(1719,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Source\Source.cpp(2093,22): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Source\Source.cpp(2155,33): warning C4101:  'elseBr': unreferenced local variable
+C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Source\Source.cpp(3021,21): warning C4018:  '<': signed/unsigned mismatch
+  Compiler.vcxproj -> C:\Users\Owner\Desktop\Collge Portfolio\Github Portfolio\Compiler\Debug\Compiler.exe

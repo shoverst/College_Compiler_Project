@@ -1,0 +1,54 @@
+unit LastTest;
+{Final compiler project test program
+   NO ERRORS INTENDED!  Notify A. Brouillette if errors are found. }
+
+VAR I,J: integer;
+var product, sum: integer;
+
+begin
+for i := 1 to 5 do
+{ Find summation 5 times }
+  begin
+  writeln("SUMMATIONS 1 THROUGH 5");
+  sum := 0;
+  for j := 1 to i do
+    begin
+    sum := sum + j
+    end;
+  writeln(sum)
+  end;
+
+{ Find 6 factorial }
+  product := 1;
+  i := 2;
+  while i <= 6 do
+    begin
+    product := product * i;
+    writeln("Product now is:");
+    writeln(product);
+    i := i + 1
+    end;
+  writeln("6! is:");
+  writeln(product);
+
+{count powers of 2 needed to get over 1000  }
+j := 0;
+product := 1;
+while product <= 1000 do
+  begin
+  product := product * 2;
+  j := j + 1;
+  writeln(j);
+  if product < 500 then
+    writeln("Product is less than 500")
+  else
+    writeln("Product is greater than or equal to 500")  
+  end;
+writeln("Iterations = ");
+writeln(j);
+writeln("Value of product:");
+writeln(product);
+
+writeln("Made it to the end.")
+
+end.

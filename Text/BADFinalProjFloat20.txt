@@ -1,0 +1,14 @@
+unit LastTest;
+{Final compiler project test program
+   NO ERRORS INTENDED!  Notify A. Brouillette if errors are found. }
+
+var product, sum: real;
+
+begin
+sum := 1.5;
+product := (sum * 12.5)/ 2.0 + 7.0;
+
+writeln("Product:");
+writeln(product);
+
+end.

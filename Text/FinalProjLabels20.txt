@@ -1,0 +1,25 @@
+unit LastTest;
+{Final compiler project test program
+   NO ERRORS INTENDED!  Notify A. Brouillette if errors are found. }
+LABEL Loop, Stop;
+VAR I,J: integer;
+var product, sum: integer;
+
+begin
+i := 1;
+LOOP:
+{ Find summation 5 times }
+  writeln("SUMMATIONS 1 THROUGH 5");
+  sum := 0;
+  for j := 1 to i do
+    begin
+    sum := sum + j
+    end;
+  writeln(sum);
+  i := i + 1;
+  IF I > 5 THEN GOTO STOP;
+GOTO LOOP;
+
+STOP: writeln("Made it to STOP!")
+
+end.
